@@ -69,7 +69,7 @@ I don't think we need to be concerned with molecules. In userland you would put 
 ## organisms
 In same light as molecules, probably we shouldn't care about this
 
-## API design in userland:
+## API design:
 
 Theming:
 
