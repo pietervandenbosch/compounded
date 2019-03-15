@@ -133,7 +133,7 @@ const fontWeights = {
 
 const typography = makeTypography(fontFamily, fontWeights);
 /**
- * outputs different elements associated with font family, with line-height based on sane defaults
+ * outputs different type functions associated with font family, with line-height based on sane defaults
  * typography.p {fontFamily, fontWeight: fontWeights.medium}
  * typography.h1
  * typography.h2
@@ -190,7 +190,7 @@ const SomeInteractiveComponent = () => {
       onHover={onHover}
       variant={hovered ? "primary" : "secondary"}
       inset={isDown}
-      onMouseDown={onDown}
+      onDown={onDown}
     />
   )
 }
